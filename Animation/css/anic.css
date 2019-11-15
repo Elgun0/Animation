@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animation {
+    background: #d35400;
+    padding: 339px;
+}
+.block{
+    height: 80px;
+    width: 80px;
+    background: #fff;
+    margin: auto;
+    animation: ani 4s infinite;
+}
+.block2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    bottom: 300px;
+    animation: ani2 4s infinite;
+}
+
+@keyframes ani{
+    0%{
+        background: #fff;
+    }
+    25%{
+        transform: rotateX(180deg);
+        background: #a56f4a;
+    }
+    50%{
+        background: #7c421a;
+    }
+    75%{
+        background: #301a0c;
+    }
+    100%{
+        background: #d35400;
+    }
+}
+@keyframes ani2{
+    0%{
+        color: #fff;
+    }
+    25%{
+        color: #a56f4a;
+    }
+    50%{
+        color: #7c421a;
+    }
+    75%{
+        color: #301a0c;
+    }
+    100%{
+        color: #d35400;
+    }
+}
